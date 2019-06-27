@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Carousel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+  <div class="ml-auto">
+    <form class="form-inline " action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button> 
+  </form>
+</nav>
+<div class="clearfix"></div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner  div1">
+    <div class="carousel-item active ">
+      <h1 class="text-white headline">Example headline.</h1>
+      <p class="text-white pheadline">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta<br> gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+      <button class="btn btn-lg btn-primary button">sign up today</button>
+    </div>
+    <div class="carousel-item">
+      <h1 class="text-center another text-white">Another example headline.</h1>
+      <p class="text-center text-white panother">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta<br>                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+       <button class="btn btn-lg btn-primary button2">Learn more</button>
+    </div>
+    <div class="carousel-item">
+      <h1 class="text-center text-white onemore">One more for good measure.</h1>
+      <p class="text-white ponemore">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta<br> gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+      </p>
+      <button class="btn btn-lg btn-primary button3">Browse gallery</button>
+    </div>
+  </div>
+   <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="container">
+  <span class="rounded-circle"></span>
+ 	
+</div> 
+ 
+</body>
+</html>
+<style>
+	.div1{
+		height: 500px;
+        background-color: #5a5a5a;
+
+	}
+	.headline{
+		margin-top: 238px;
+		margin-left: 157px;
+		}
+	.pheadline{
+		margin-left:158px;
+		font-size: 20px;
+	}
+	.button{
+		margin-left: 160px;
+	}
+	.another{
+		margin-top: 238px;
+		margin-left: -29px;
+		}
+		.panother{
+			font-size: 20px;
+		}
+		.button2{
+		margin-left: 458px;
+             }
+    .onemore{
+    	float: left;
+    	margin-top:221px;
+    	margin-left: 430px;
+    }
+    .ponemore{
+    	margin-top: 6px;
+    	margin-left: 214px;
+    	float: left;
+    	font-size: 20px; 
+    }
+    .button3{
+    	margin-left: 789px;
+    }
+    span {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 6px;
+    background-color: #555;
+  }
+</style>
